@@ -1,0 +1,16 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Soma 10</title>
+</head>
+<body>
+    {% csrf_token %}
+    <input type="number" id="num">
+    <button onclick="sum()">sum 10</button>
+    <p id="result"></p>
+    
+    <script src="{% static 'script.js' %}"></script>
+</body>
+</html>
