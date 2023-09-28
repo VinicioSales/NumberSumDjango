@@ -3,14 +3,31 @@
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
-    <title>Soma 10</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sum numbers</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bungee&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="{% static 'user_explorer/styles.css' %}">
 </head>
 <body>
     {% csrf_token %}
-    <input type="number" id="num">
-    <button onclick="sum()">sum 10</button>
-    <p id="result"></p>
-    
+    <div class="rightFrame">
+        <div class="subRightFrame">
+            <div>
+                <label id="title" class="titulo">Sum numbers</label>
+            </div>
+            <div class="formulario">
+                <div>
+                    <input id="num" class="input" type="text" name="razaoSocial" placeholder="Number">
+                </div>
+                <div class="button">
+                    <button id="button" onclick="sum()">SUM</button>
+                </div>
+            </div>
+        </div>
+    </div>
     <script src="{% static 'script.js' %}"></script>
 </body>
 </html>

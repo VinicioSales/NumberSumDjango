@@ -1,0 +1,125 @@
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color:#c0c0d9;
+}
+
+#logo {
+    transform: scale(0.5);
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+
+.leftFrame {
+    width: 30%;
+    height: 70%;
+    background-color: #dddde7;
+    border: none;
+    box-shadow: -13px 13px 16px -11px #A3A3B3;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.flashMessages {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 20px;
+    text-align: center;
+    height: 100%;
+    margin-left: 3%;
+    margin-right: 3%;
+    font-family: 'Bungee', cursive;
+    
+}
+
+.formulario {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 40%;
+    padding-right: 10%;
+}
+
+.subRightFrame {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+
+
+.input {
+    background-color: transparent;
+    width: 100%;
+    height: 100%;
+    border: none;
+    border-bottom: 1px solid #000736;
+    padding: 10%;
+    font-size: 15px;
+}
+
+.input:focus {
+    outline: none;
+}
+
+
+.rightFrame {
+    width: 30%;
+    height: 70%;
+    background-color: #f4f5f5;
+    border: none;
+    box-shadow: 15px 13px 16px -11px #A3A3B3;
+}
+
+.texto {
+    color: #000736;
+}
+
+.titulo {
+    font-family: 'Bungee', cursive;
+    font-size: 26px;
+    color: #000736;
+    margin-top: 10%;
+}
+
+
+#razao_social {
+    font-family: 'Bungee', cursive;
+}
+
+.button {
+    margin-top: 50px;
+}
+
+#button {
+	background-color:#9aeae2;
+	border: none;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:20px;
+	padding:5px 55px;
+	text-decoration:none;
+    border-radius: 30px;
+    margin-top: 7%;
+}
+#button:hover {
+	background-color:#76C1BA;
+}
+#button:active {
+	position:relative;
+	top:1px;
+}
+
